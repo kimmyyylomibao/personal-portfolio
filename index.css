@@ -1,0 +1,210 @@
+/* COLORS 
+Beige - #F4F1DE
+Orange- #E07A5F;
+darkblue- #3D405B
+lightgreen- #81B29A
+yellow- #F2CC8F
+maroon - #8F5D5D
+tumbleweed - #EAB69F
+
+FOR LINKS {
+BLUE - #71A9F7;
+HOVER : #6B5CA5;
+}
+
+FONTS FOR TITLES 
+font-family: 'Courgette', cursive;
+*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+  /* GLOBAL */
+  
+  body {
+    background: #3D405B;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #F4F1DE;
+    width: 100vw;
+  }
+  
+  h2 {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
+  
+  .description {
+    font-family: 'Besley', serif;
+  }
+  
+  div {
+    display:inline-block;
+  }
+  
+  /* HEADER*/
+  header {
+    font-size: 26px;
+    margin: 0;
+    padding: 10%;
+    display: block;
+  }
+  
+  
+  .introduction h1{
+    font-family: 'Courgette', cursive;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+   
+  }
+  
+  .introduction h2{
+    padding: 0;
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: 2;
+  }
+  
+  /* ABOUT ME*/
+  
+  .about-me {
+    background: #E07A5F;
+  }
+  
+  .about-me h2 {
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .abt-me-items p {
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+  
+  .abt-me-items a {
+    text-decoration: none;
+    color: #71A9F7;
+  }
+    
+  .abt-me-items a:hover {
+    color: #6B5CA5;
+  }
+   
+  
+  .about-me img {
+    width: 35%;
+    border: 10px #EAB69F solid;
+    border-radius: 100%
+  }
+    
+    
+  
+  
+  
+  
+  
+  /* PROJECTS */
+  
+  .project-items {
+  background: #F2CC8F;
+  width: 100vw;
+    color: #6B5CA5;  
+    padding: 6px;
+    
+  }
+  
+  .project-items h2 {
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .project-items p {
+  margin-bottom: 30px;
+  }
+  
+  .btn-projects a{
+    text-decoration: none;
+    color: #1D3461;
+    font-size: 1.2em; 
+    padding: 5px;
+  }
+  
+  .btn-projects button {
+    background: #C0E0DE;
+    border: 2px #3C474B solid;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    
+  }
+  
+  .btn-projects button:hover {
+    color: #9EEFE5;
+    font-size: 1.10em;
+    background: lightpink;
+  }
+  
+  
+  /* EDUCATION */
+  .education {
+    background: #81B29A;
+    background-size: 100%;
+  }
+  
+  .education-items {
+    color: beige;
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5em;
+  }
+  
+  .education h2 {
+    color: white;
+  }
+  
+  /* FOOTER */
+  .footer {
+    background: #8F5D5D;
+    width: 100vw;
+    height:100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer h2 {
+    font-size: 2em;
+  }
+  
+  .footer .description {
+    font-size: 1.2em;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+    
+  }
+  
+  .footer a {
+    color: #81B29A;
+    font-size: 1.2em; 
+    padding: 5px;
+    margin: 0 10px;
+  }
+  
