@@ -80,6 +80,7 @@ html {
   
   .about-me {
     background: #E07A5F;
+    width: 100vw;
   }
   
   .about-me h2 {
@@ -105,8 +106,9 @@ html {
   
   .about-me img {
     width: 35%;
+    height: 60%;
     border: 10px #EAB69F solid;
-    border-radius: 100%
+    border-radius: 70%
   }
     
     
@@ -120,8 +122,8 @@ html {
   .project-items {
   background: #F2CC8F;
   width: 100vw;
-    color: #6B5CA5;  
-    padding: 6px;
+  color: #6B5CA5;  
+  padding: 6px;
     
   }
   
@@ -170,6 +172,11 @@ html {
     display: grid;
     grid-auto-flow: column;
     gap: 1.5em;
+    justify-content: center;
+  }
+
+  .education-item {
+    width: 500px;
   }
   
   .education h2 {
